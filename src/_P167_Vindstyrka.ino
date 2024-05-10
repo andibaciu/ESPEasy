@@ -135,7 +135,6 @@ boolean Plugin_167(uint8_t function, struct EventStruct *event, String& string) 
 
     case PLUGIN_WEBFORM_SHOW_GPIO_DESCR:
     {
-      // if (P167_SEN_FIRST == event->TaskIndex) { // If first SEN, serial config available
       if (P167_MODEL == 0) {
         string = strformat(F("MonPin SCL: %s"), formatGpioLabel(P167_MON_SCL_PIN, false).c_str());
       }
