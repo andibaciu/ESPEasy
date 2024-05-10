@@ -1429,6 +1429,9 @@ To create/register a plugin, you have to :
     #if !defined(USES_P152) && (defined(ESP32_CLASSIC) || defined(ESP32S2)) // Only supported on ESP32 and ESP32-S2
       #define USES_P152 // ESP32 DAC
     #endif
+
+    #define USES_P167   // IKEA Vindstyrka
+
 #endif
 
 
