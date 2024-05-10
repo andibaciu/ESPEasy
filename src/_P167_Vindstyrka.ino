@@ -139,7 +139,6 @@ boolean Plugin_167(uint8_t function, struct EventStruct *event, String& string) 
         string = strformat(F("MonPin SCL: %s"), formatGpioLabel(P167_MON_SCL_PIN, false).c_str());
       }
 
-      // }
       success = true;
       break;
     }
